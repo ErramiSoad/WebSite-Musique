@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clean Bandit</title>
+	<link rel="stylesheet" type="text/css" href="css/BTS.css">
+	<header>
+	 	<nav>
+   <ul>
+    <li><a href="index.html"><b>Home</b></a></li>
+    <li><a href="Artiste.html"><b>Artiste</b></a>
+        <ul>    
+        	    <li><a href="Bts.html">BTS</a></li>
+			    <li><a href="Ariana.html">Ariana Grande</a></li>
+                <li><a href="saad.html">Saad Lmjarred</a></li>
+                <li><a href="indila.html">Indila</a>
+        </ul>
+    </li>
+    <li><a href="Style.html"><b>Style</b></a>
+    	<ul>
+			          <li><a>K-POP</a></li>
+                <li><a>Relaxtion</a></li>
+                <li><a>piano</a></li>
+                <li><a>plus</a></li>
+        </ul>
+            </li>
+            <li><a href="Sign.html"><b>Sign Up</b></a></li>
+			      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+
+	</nav>
+	</header>
+</head>
+<body>
+<body>
+  <div class="img" style="max-width:100%">
+  <img class="mySlides" src="img/clean.png" style="width:100%">
+  <br>
+<h1 class="bts">Clean Bandet</h1>
+<br>
+<div id="nothing"></div>
+
+<script src="js/clean.js" ></script>
+
+  <script>
+    var myText="<b>Clean Bandet</b> ,est un groupe de musique électronique anglais, fondé à Cambridge en 2009. Il est composé de trois membres : Grace Chatto, Luke Patterson et Jack Patterson. Leur style musical emprunte à la musique classique et à la musique électronique . "
+ var myArray=myText.split("");
+ var timeLooper;
+ function writetext(){
+      text1=text1+text[countt];
+        document.all["nothing"].innerHTML = text1;
+        if (countt == text.length - 1) {
+          var mTimer;
+          mTimer=setInterval('image()',4000);
+          } 
+          else{
+            countt++;
+            setTimeout('writetext()', 40);
+          }
+     }
+setTimeout('writetext()', 100);
+  </script>
+
+<br><br><br><br>
+
+ <table>
+    <tr>
+        <td><div class="imgBx">
+                  <img src="https://cdns-images.dzcdn.net/images/artist/162d96353b48c6542abe25c578c5cea8/264x264.jpg">
+            </div>
+        <audio controls> 
+            <source src="music/Rockabye.mp3" type="audio/mp3">
+        </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=af8587ac99e8bd68b1d73914c53f7d71"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=00c74895e37e2e02cb7bc9d18b6421a3"><b>Telecharger Vedio</b></a>
+        </td> 
+
+          
+        <td id="n"><div class="imgBx">
+               <img src="https://static.qobuz.com/images/artists/covers/medium/f5b5f572f6141f4b0db75e9930457b98.jpg">
+           </div>
+        <audio controls> 
+             <source src="music/Mama.mp3" type="audio/mp3">
+        </audio>
+
+          <a class="btn" href="https://notube.net/fr/download?token=09891e640eb55c50d4a320891f67f84a"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=a6b40bfd3b7819684f7ec38765c3ee8f"><b>Telecharger Vedio</b></a>
+        </td>  
+    </tr>
+    <br><br>
+
+    <tr>
+       <td><div class="imgBx">
+             <img src="https://i1.sndcdn.com/artworks-000217091297-lo4q0e-t500x500.jpg">
+           </div>
+       <audio controls> 
+            <source src="music/Symphony.mp3" type="audio/mp3">
+       </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=7a5649d4607370d695ec68ccb8ca4e92"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=f23564e8a28476a21cd64a8bef5abc3e"><b>Telecharger Vedio</b></a>
+        </td> 
+
+
+      <td id="n"><div class="imgBx">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnx8IZ7bRkYLVf-GVxtyc7VPoc5QLCLxqWqA&usqp=CAU">
+           </div>
+      <audio controls> 
+           <source src="music/Come.mp3" type="audio/mp3">
+      </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=d5711880b224a4e9769395c349e9b5ae"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=47c508a668a585fbac842bb5e86bd742"><b>Telecharger Vedio</b></a>
+        </td>  
+      </tr>
+  
+  </table>
+  <br><br><br><br>
+</body>
+</html>

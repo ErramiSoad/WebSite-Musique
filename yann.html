@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yann Tiersen</title>
+	<link rel="stylesheet" type="text/css" href="css/BTS.css">
+	<header>
+	 	<nav>
+   <ul>
+    <li><a href="index.html"><b>Home</b></a></li>
+    <li><a href="Artiste.html"><b>Artiste</b></a>
+        <ul>    
+        	    <li><a href="Bts.html">BTS</a></li>
+			    <li><a href="Ariana.html">Ariana Grande</a></li>
+                <li><a href="saad.html">Saad Lmjarred</a></li>
+                <li><a href="indila.html">Indila</a>
+        </ul>
+    </li>
+    <li><a href="Style.html"><b>Style</b></a>
+    	<ul>
+			          <li><a>K-POP</a></li>
+                <li><a>Relaxtion</a></li>
+                <li><a>piano</a></li>
+                <li><a>plus</a></li>
+        </ul>
+            </li>
+            <li><a href="Sign.html"><b>Sign Up</b></a></li>
+			      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+
+	</nav>
+	</header>
+</head>
+<body>
+	<div class="img" style="max-width:100%">
+  <img class="mySlides" src="img/yann.png" style="width:100%">
+  <br>
+  <h1 class="bts">Yann Tiersen</h1>
+<br>
+<div id="nothing"></div>
+<script src="js/yann.js" ></script>
+  <script>
+    var myText="<b>Yann Tiersen</b> ,né le 23 juin 1970 à Brest, est un auteur-compositeur et musicien multi-instrumentiste français. "
+ var myArray=myText.split("");
+ var timeLooper;
+ function writetext(){
+      text1=text1+text[countt];
+        document.all["nothing"].innerHTML = text1;
+        if (countt == text.length - 1) {
+          var mTimer;
+          mTimer=setInterval('image()',4000);
+          } 
+          else{
+            countt++;
+            setTimeout('writetext()', 40);
+          }
+     }
+setTimeout('writetext()', 100);
+  </script>
+  
+<br><br><br><br>
+  
+ <table>
+    <tr>
+        <td><div class="imgBx">
+                  <img src="img/0.jpg">
+            </div>
+        <audio controls> 
+            <source src="music/Comptine.mp3" type="audio/mp3">
+        </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=bfb88de33e4f025f0f25a16fe8951b15"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=e4494feb00689a2edadca79afeabac23"><b>Telecharger Vedio</b></a>
+        </td> 
+
+
+        <td id="n"><div class="imgBx">
+               <img src="img/00.jpeg">
+           </div>
+        <audio controls> 
+             <source src="music/Porz.mp3" type="audio/mp3">
+        </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=2e3bf160eab45384cadba02bf13366b8"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=24bfffbea8be64bfb3c907783e0ccf0b"><b>Telecharger Vedio</b></a>
+        </td>  
+    </tr>
+
+
+    <tr>
+       <td><div class="imgBx">
+             <img src="img/22.png">
+           </div>
+       <audio controls> 
+            <source src="music/Valse.mp3" type="audio/mp3">
+       </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=0c7a383308264f7d1e8f6d50a003750f"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=733c5dd82b3c7ebd29219fd2534608b7"><b>Telecharger Vedio</b></a>
+        </td> 
+
+
+      <td id="n"><div class="imgBx">
+              <img src="img/000.jpeg">
+           </div>
+      <audio controls> 
+           <source src="music/Homme.mp3" type="audio/mp3">
+      </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=51c1fd814e54ca60d86599d59b1f3b5e"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=7db732616ba344815ae85b0245e9de15"><b>Telecharger Vedio</b></a>
+        </td>  
+      </tr>
+  
+  </table>
+  <br><br><br><br>
+</body>
+</html>

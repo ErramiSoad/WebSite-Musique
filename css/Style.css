@@ -1,0 +1,121 @@
+body{
+  background: #f1f3f4;
+    background-size:cover
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size:100% 100%;
+  background-image: url("../img/00.jpg");
+
+}
+nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:60px;
+  padding-top: 10px;
+  overflow: hidden;
+  position:relative;
+
+}
+nav ul {
+	margin: 0;
+	padding: 9px;
+	list-style-type:none;
+	float:right;
+	}
+
+nav ul li {
+	display:inline-block;
+	width:100px;
+	font-size:20px;
+	padding-top:10px; 
+    text-decoration: none;
+	padding-left:0px ;
+}
+nav a:hover {
+  
+  color:#D689AB;
+  padding: 5px;
+}
+nav ul li ul {
+	display: none;
+	margin-top: 10px;
+}
+nav ul li:hover ul {
+display: block;
+}
+nav li:hover ul li {
+	float:none;
+}
+a {
+	text-decoration: none;
+	color:#920B47;
+}
+.hero {
+  margin-top:1px ;
+  width: 100%;
+  height: 500px;
+  background: rgb(50, 50, 50);
+  background: url('https://pbs.twimg.com/media/EU3tMzzXgAMlqgq.jpg') no-repeat 50% 50% fixed;
+  background-size: 130%;
+  overflow: hidden;
+  -moz-animation: mymove 8s infinite;
+  -webkit-animation: mymove 8s infinite;
+  position: relative;
+
+}
+
+@-moz-keyframes mymove {
+  0%{background:url('https://pbs.twimg.com/media/EU3tMzzXgAMlqgq.jpg') no-repeat 50% 50% fixed;}
+20%{background:url('https://writeallywrite.files.wordpress.com/2017/04/maxresdefault2.jpg') no-repeat 50% 50% fixed;}
+40%{  background: url('https://i.pinimg.com/originals/36/58/99/365899cdd2e1b6e21c35b35d86c0ec86.jpg') no-repeat 50% 50% fixed;}
+60%{background:url('https://d22j5o5tchpycs.cloudfront.net/blog/_1200x630_crop_center-center_82_none/jazzy.jpg?mtime=1531891235') no-repeat 50% 50% fixed;}
+80%{background:url('https://images.squarespace-cdn.com/content/v1/57883c54bebafbfd32284dc9/1528435936478-0O7OZJ44FV8Y158BA754/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Uf479GMBNBfhHsrrjiU7oVFJ8_wlwITqu6jJqO9L0NwOoT__5iE7svB1u_pQDzoSaA/twaddle.jpg?format=2500w') no-repeat 50% 50% fixed;}
+100%{  background: url('https://pbs.twimg.com/media/EU3tMzzXgAMlqgq.jpg') no-repeat 50% 50% fixed;}
+}
+@-webkit-keyframes mymove {
+  0%{background:url('https://pbs.twimg.com/media/EU3tMzzXgAMlqgq.jpg') no-repeat 50% 50% fixed;}
+20%{background:url('https://writeallywrite.files.wordpress.com/2017/04/maxresdefault2.jpg') no-repeat 50% 50% fixed;}
+40%{  background: url('https://i.pinimg.com/originals/36/58/99/365899cdd2e1b6e21c35b35d86c0ec86.jpg') no-repeat 50% 50% fixed;}
+60%{background:url('https://d22j5o5tchpycs.cloudfront.net/blog/_1200x630_crop_center-center_82_none/jazzy.jpg?mtime=1531891235') no-repeat 50% 50% fixed;}
+80%{background:url('https://images.squarespace-cdn.com/content/v1/57883c54bebafbfd32284dc9/1528435936478-0O7OZJ44FV8Y158BA754/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Uf479GMBNBfhHsrrjiU7oVFJ8_wlwITqu6jJqO9L0NwOoT__5iE7svB1u_pQDzoSaA/twaddle.jpg?format=2500w') no-repeat 30% 30% fixed;}
+100%{  background: url('https://pbs.twimg.com/media/EU3tMzzXgAMlqgq.jpg') no-repeat 50% 50% fixed;}
+}
+.titre{
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size:30px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+div.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 180px;
+  margin: 25px 50px 60px 150px;
+}
+.gallery:hover {
+  cursor: pointer;
+  transition: all 1s ease;
+  transform-origin: center;
+  transform: scale(1.04);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sing Up</title>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <header>
+  <nav>
+   <ul>
+    <li><a class="menu" href="index.html"><b>Home</b></a></li>
+    <li><a class="menu" href="Artiste.html"><b>Artiste</b></a></li>
+    <li><a class="menu" href="Style.html"><b>Style</b></a></li>
+    <li><a class="menu" href="Sign.html"><b>Sign Up</b></a></li>
+    <li><a class="menu" href="contact.html"><b>Contact</b></a></li>
+   </ul>
+
+  </nav>
+  </header>
+</head>
+<body>
+
+<img class="wave" src="img/00.jpg">
+  <div class="container">
+    <div class="img">
+      <img src="img/img.svg">
+    </div>
+    <div class="login-content">
+      <form action="contact.html"onsubmit = "return validateForm()">
+        <h2 class="title">Bienvenue</h2>
+              <div class="input-div one">
+                 <div class="i">
+                    <i class="fas fa-user"></i>
+                 </div>
+                 <div class="div">
+                     <input type="text" class="input"  id="nom"placeholder="Nom">
+                 </div>
+              </div>
+
+              <div class="input-div one">
+                 <div class="i">
+                    <i class="fas fa-phone"></i>
+                 </div>
+                 <div class="div">
+                     <input type="text" class="input"  id="email" placeholder="Numero de telephone ou Email">
+                 </div>
+              </div>
+
+              <div class="input-div pass">
+                 <div class="i"> 
+                    <i class="fas fa-lock"></i>
+                 </div>
+                 <div class="div">
+                     <input type="password" class="input"id="passe" placeholder="Mot de passe">
+                 </div>
+              </div>
+
+              <div class="input-div pass">
+                 <div class="i"> 
+                    <i class="fas fa-lock"></i>
+                 </div>
+                 <div class="div">
+                     <input type="password" class="input" placeholder="Confermer Votre Mot de passe">
+                 </div>
+              </div>
+              <input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/sign.js"></script>
+  </body>
+</html>

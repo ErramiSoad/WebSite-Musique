@@ -1,0 +1,9 @@
+algo	test
+var     A, B , B: integer;
+start
+	A = 10;
+	C = 12;
+	if (A < 20) then
+		B = 5;
+		endif
+end

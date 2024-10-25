@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saad Lmjarred</title>
+	<link rel="stylesheet" type="text/css" href="css/BTS.css">
+	<header>
+	 	<nav>
+   <ul>
+    <li><a href="index.html"><b>Home</b></a></li>
+    <li><a href="Artiste.html"><b>Artiste</b></a>
+        <ul>
+				       <li><a href="Bts.html">BTS</a></li>
+                <li><a href="Ariana.html">Ariana Grande</a></li>
+                <li><a href="saad.html">Saad Lmjarred</a></li>
+                <li><a href="indila.html">Indila</a>
+        </ul>
+    </li>
+    <li><a href="Style.html"><b>Style</b></a>
+    	<ul>
+			          <li><a>K-POP</a></li>
+                <li><a>Relaxtion</a></li>
+                <li><a>piano</a></li>
+                <li><a>plus</a></li>
+        </ul>
+            </li>
+            <li><a href="Sign.html"><b>Sign Up</b></a></li>
+			      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+
+	</nav>
+	</header>
+</head>
+<body>
+	<div class="img" style="max-width:100%">
+  <img class="mySlides" src="img/saad.png" style="width:100%">
+  <br>
+  <h1 class="bts">Saad Lmjarred</h1>
+  <br>
+<div id="nothing"></div>
+
+<script src="js/saad.js" ></script>
+
+  <script>
+
+    var myText="<b>Saad Lmjarred</b> ,né le 7 avril 1985 à Rabat1. Il a grandi au milieu d'une famille d'artistes marocaine ,il est le fils du chanteur Bachir Lamjarred, plus connu sous le nom de Bachir Abdou, et de l'actrice Nezha Regragui. Il choisit donc comme vocation le chant et la musique. Très tôt il apprend à jouer du piano, ce qui le mènera à chanter et à choisir le même métier que son père.. "
+ var myArray=myText.split("");
+ var timeLooper;
+ function writetext(){
+      text1=text1+text[countt];
+        document.all["nothing"].innerHTML = text1;
+        if (countt == text.length - 1) {
+          var mTimer;
+          mTimer=setInterval('image()',4000);
+          } 
+          else{
+            countt++;
+            setTimeout('writetext()', 40);
+          }
+     }
+setTimeout('writetext()', 100);
+  </script>
+  
+<br><br><br><br>
+ 
+<table>
+    <tr>
+        <td><div class="imgBx">
+                  <img src="https://images.genius.com/10cc3c0561497c714b00c6b5ef2c6eb4.1000x1000x1.jpg">
+            </div>
+        <audio controls> 
+            <source src="music/adda lkalam.mp3" type="audio/mp3">
+        </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=9a34ddb7fb42c743020307500c044162"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=4d01b67a4f21ad1c63e10d42905cd6cd"><b>Telecharger Vedio</b></a>
+        </td> 
+
+
+        <td id="n"><div class="imgBx">
+               <img src="https://i.pinimg.com/236x/ab/6a/eb/ab6aeb289d9c56758bc13955d061778f.jpg">
+           </div>
+        <audio controls> 
+             <source src="music/ghazali.mp3" type="audio/mp3">
+        </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=573178301487ccb1c3a5c99067f89612"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=14abc4ee275e61c9a5882e093bce17b2"><b>Telecharger Vedio</b></a>
+        </td>  
+    </tr>
+
+
+    <tr>
+       <td><div class="imgBx">
+             <img src="https://i.pinimg.com/originals/64/47/26/64472615a53ec471113ac79ce2df68e6.jpg">
+           </div>
+       <audio controls> 
+            <source src="music/Lm3allem.mp3" type="audio/mp3">
+       </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=6718fd5d2e871dd9712e808cf927710f"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=461d9b6205a6172baceeeddfdd3f86e4"><b>Telecharger Vedio</b></a>
+        </td> 
+
+
+      <td id="n"><div class="imgBx">
+              <img src="https://lh3.googleusercontent.com/GK7lgZWambxcn7eZVXB2pX6CGgAIeNQ7PTLU4HvaszZRl0Kg3Ox0rdXj3hyyXl8ehQc">
+           </div>
+      <audio controls> 
+           <source src="music/ikh.mp3" type="audio/mp3">
+      </audio>
+          <a class="btn" href="https://notube.net/fr/download?token=a3516c422601062b06eca9fa318ef71f"><b>Telecharger Audio</b></a>
+          <a class="btn" href="https://notube.net/fr/download?token=8e7ae4668325f36eef908806ae1b5e06"><b>Telecharger Vedio</b></a>
+        </td>  
+      </tr>
+  
+  </table>
+<br><br><br><br>
+
+</body>
+</html>

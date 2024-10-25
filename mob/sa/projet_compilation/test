@@ -1,0 +1,15 @@
+algo	 
+procedure prod1(var1 : integer, var2 : integer)
+	var somme : integer;
+	somme = var1 + var2;
+endprocedure;
+
+procedure prod2(var3 : integer, var4 : integer)
+	var somme1 : integer;
+	somme1 = var3 + var4;
+endprocedure;
+
+var Abb,Acc,Att: integer;
+start
+	Att = Abb + Acc;
+end

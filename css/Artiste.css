@@ -1,0 +1,123 @@
+body{
+  background-size:cover
+  background-repeat:no-repeat;
+  background-attachment:fixed; 
+  background-size:100% 100%;
+  background-image: url("../img/00.jpg");
+}
+nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:60px;
+  padding-top: 10px;
+  overflow: hidden;
+  position:relative;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 9px;
+  list-style-type:none;
+  float:right;
+  }
+
+nav ul li {
+  display:inline-block;
+  width:100px;
+  font-size:20px;
+  padding-top:10px; 
+    text-decoration: none;
+  padding-left:0px ;
+}
+nav a:hover {
+  
+  color:#D689AB;
+  padding: 5px;
+}
+nav ul li ul {
+  display: none;
+  margin-top: 10px;
+}
+nav ul li:hover ul {
+display: block;
+}
+nav li:hover ul li {
+  float:none;
+}
+a {
+  text-decoration: none;
+  color:#920B47;
+}
+.titre{
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size:30px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 180px;
+  margin: 25px 50px 60px 150px;
+}
+
+.gallery:hover {
+  cursor: pointer;
+  transition: all 1s ease;
+transform-origin: center;
+transform: scale(1.04);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.hero {
+  margin-top:1px ;
+  width: 100%;
+  height: 500px;
+  background: rgb(50, 50, 50);
+  background: url('https://amp.thenationalnews.com/image/policy:1.1057069:1596187518/ac01-AUG-music-clean-bandit.jpg?f=16x9&w=1200&$p$f$w=644c1d3') no-repeat 50% 50% fixed;
+  background-size: 130%;
+  overflow: hidden;
+  -moz-animation: mymove 8s infinite;
+  -webkit-animation: mymove 8s infinite;
+  position: relative;
+
+}
+
+@-moz-keyframes mymove {
+  0%{background:url('../img/bts.jpeg') no-repeat 50% 50% fixed;}
+20%{background:url('https://www.libe.ma/photo/art/grande/46343860-37063880.jpg?v=1589987919') no-repeat 50% 50% fixed;}
+40%{  background: url('https://amp.thenationalnews.com/image/policy:1.1057069:1596187518/ac01-AUG-music-clean-bandit.jpg?f=16x9&w=1200&$p$f$w=644c1d3') no-repeat 50% 50% fixed;}
+60%{background:url('https://img-www.tf-cdn.com/artist/10/indila.jpeg?_v=20200416021950&fit=crop&crop=faces%20entropy&w=1200&h=630') no-repeat 50% 50% fixed;}
+80%{background:url('../img/bts.jpeg') no-repeat 50% 50% fixed;}
+100%{  background: url('https://amp.thenationalnews.com/image/policy:1.1057069:1596187518/ac01-AUG-music-clean-bandit.jpg?f=16x9&w=1200&$p$f$w=644c1d3') no-repeat 50% 50% fixed;}
+}
+@-webkit-keyframes mymove {
+  0%{background:url('../img/bts.jpeg') no-repeat 50% 50% fixed;}
+20%{background:url('https://www.libe.ma/photo/art/grande/46343860-37063880.jpg?v=1589987919') no-repeat 50% 50% fixed;}
+40%{  background: url('https://amp.thenationalnews.com/image/policy:1.1057069:1596187518/ac01-AUG-music-clean-bandit.jpg?f=16x9&w=1200&$p$f$w=644c1d3') no-repeat 50% 50% fixed;}
+60%{background:url('https://img-www.tf-cdn.com/artist/10/indila.jpeg?_v=20200416021950&fit=crop&crop=faces%20entropy&w=1200&h=630') no-repeat 50% 50% fixed;}
+80%{background:url('../img/bts.jpeg') no-repeat 50% 50% fixed;}
+100%{  background: url('https://amp.thenationalnews.com/image/policy:1.1057069:1596187518/ac01-AUG-music-clean-bandit.jpg?f=16x9&w=1200&$p$f$w=644c1d3') no-repeat 50% 50% fixed;}
+}

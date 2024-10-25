@@ -1,0 +1,10 @@
+algo	exemple_1
+var     var_1,var_2 : integer;
+start
+	var_1 = 10;
+	write("Entrez la valeure de var_2 :");
+	/*saisir la valeur de var_2*/
+	read(var_2);
+	/*affichage de var_2*/
+	write("var_1 = "var_1"et var_2 =" var_2);
+end

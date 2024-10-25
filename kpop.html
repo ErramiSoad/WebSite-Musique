@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>kpop</title>
+  <meta charset="utf-8"/>
+  <meta name="veiwport" content="width-device-width,initial/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/kpop.css">
+  <header>
+    <nav>
+  <ul>
+    <li><a href="index.html"><b>Home</b></a></li>
+    <li><a href="Artiste.html"><b>Artiste</b></a>
+        <ul>    
+              <li><a href="Bts.html">BTS</a></li>
+              <li><a href="Ariana.html">Ariana Grande</a></li>
+              <li><a href="saad.html">Saad Lmjarred</a></li>
+              <li><a href="indila.html">Indila</a>
+        </ul>
+    </li>
+    <li><a href="Style.html"><b>Style</b></a>
+        <ul>
+              <li><a href="kpop.html">K-POP</a></li>
+              <li><a href="relaxation.html">Relaxtion</a></li>
+              <li><a href="piano.html">piano</a></li>
+              <li><a>plus</a></li>
+        </ul>
+              </li>
+              <li><a href="Sign.html"><b>Sign Up</b></a></li>
+              <li><a href="contact.html"><b>Contact</b></a></li>
+  </ul>
+    </nav>
+  </header>
+</head>
+<body>
+  <h2 >K-POP</h2>
+  <div id="nothing"></div>
+
+  <script>
+    var myText="<b>K-pop</b>(abréviation de Korean pop):est un terme désignant plusieurs genres musicaux originaires de Corée du Sud ,caractérisés par une large variété des élements audiovisuels.  "
+ var myArray=myText.split("");
+ var timeLooper;
+ function writetext(){
+      text1=text1+text[countt];
+        document.all["nothing"].innerHTML = text1;
+        if (countt == text.length - 1) {
+          var mTimer;
+          mTimer=setInterval('image()',4000);
+          } 
+          else{
+            countt++;
+            setTimeout('writetext()', 10);
+          }
+    
+  }
+setTimeout('writetext()', 1000);
+  </script>
+ <div class="main">
+    <p id="logo"><i class="fa fa-music"></i>Music</p>
+    
+    <!--- left part --->
+     <div class="left">
+
+      <!--- song img --->
+      <img id="track_image">
+         <div class="volume">
+            <p id="volume_show">90</p>
+            <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+            <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+         </div>
+
+     </div>
+ 
+
+     <!--- right part --->
+     <div class="right">
+
+        <div class="show_song_no">
+          <p id="present">1</p>
+          <p>/</p>
+          <p id="total">5</p>
+        </div>
+
+       <!--- song title & artist name --->
+      <p id="artist">Artist name</p>
+
+      <!--- middle part --->
+      <div class="middle">
+           <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+           <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+           <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+       </div>
+
+       <!--- song duration part --->
+        <div class="duration">
+           <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+        </div>
+           <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+    </div>
+   
+  </div>
+  <script src="js/kpop.js"></script>
+
+  
+</head>
+<body>
+
+
+   
+</body>
+</html>

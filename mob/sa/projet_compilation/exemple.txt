@@ -1,0 +1,11 @@
+algo	somme
+
+var var_1: reel;
+var var_2: reel;
+var somme: reel;
+
+start
+	var_1 = 10;
+	var_2 = 3;
+	somme = var_1 + var_2;
+end
